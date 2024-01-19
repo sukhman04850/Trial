@@ -1,0 +1,18 @@
+@OrderService_HostAddress = http://localhost:5203
+
+GET {{OrderService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{OrderService_HostAddress}}/api/order/GetAllOrders
+
+###
+
+GET {{OrderService_HostAddress}}/api/order/GetAllOrders
+
+###
+
+GET {{OrderService_HostAddress}}/api/order/GetOrderById/0
+
+###
